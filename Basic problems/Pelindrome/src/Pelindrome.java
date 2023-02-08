@@ -1,6 +1,6 @@
 public class Pelindrome {
     public static void main(String[] args) {
-        System.out.println(PerfectNumber.isPerfect(18));
+        System.out.println(checkPelindrome.isPelindrome(111));
     }
 
     public class checkPelindrome {
@@ -13,15 +13,14 @@ public class Pelindrome {
                     rev = lastDigit + (rev * 10);
                     temp = temp / 10;
                 }
-                return number == rev ? true : false;
+                return number == rev;
             } else
                 while (temp < 0) {
                     lastDigit = temp % 10;
                     rev = lastDigit + (rev * 10);
                     temp = temp / 10;
                 }
-            return number == rev ? true : false;
+            return number == rev;
         }
     }
-
 }
