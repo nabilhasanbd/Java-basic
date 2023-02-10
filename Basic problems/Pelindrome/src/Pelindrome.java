@@ -3,7 +3,7 @@ public class Pelindrome {
         System.out.println(checkPelindrome.isPelindrome(111));
     }
 
-    public class checkPelindrome {
+    public static class checkPelindrome {
         public static boolean isPelindrome(int number) {
             int temp, lastDigit, rev = 0;
             temp = number;
