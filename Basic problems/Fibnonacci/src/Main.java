@@ -7,6 +7,10 @@ public class Main {
         int n = scan.nextInt();
 
         Fibonacci.getFibonacci(n);
-        RecusiveFibonacci.recursiveFibonacci(n);
+        System.out.print("Fibonacci sequence: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(RecusiveFibonacci.recursiveFibonacci(i) + " ");
+        }
+
     }
 }
