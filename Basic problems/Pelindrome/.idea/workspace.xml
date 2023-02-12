@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d199485b-2cab-494d-b2e0-6ad15db98cca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/Pelindrome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pelindrome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/out/production/Pelindrome/FactorPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/out/production/Pelindrome/GCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/out/production/Pelindrome/Pelindrome$checkPelindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pelindrome/Pelindrome$checkPelindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/out/production/Pelindrome/Pelindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pelindrome/Pelindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/out/production/Pelindrome/PerfectNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/out/production/Pelindrome/SumOfEvenNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/out/production/Pelindrome/sumFirstandLast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pelindrome/src/Pelindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pelindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +31,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Java practice/Java Basics/Basic problems/Pelindrome"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Pelindrome (1)">
