@@ -1,4 +1,4 @@
-public class Shape {
+public class Main {
     public static void main(String[] args) {
 
         ColoredRectangle rectangle1 = new ColoredRectangle();
