@@ -5,5 +5,7 @@ public class Main {
         System.out.println(rectangle1.getArea()); //Calling parent function
         System.out.println(rectangle1.getPeriphery()); //Calling child function
         System.out.println(rectangle1.getColor()); //Calling child function
+        Rectangle rectableParent = new Rectangle();
+        System.out.println(rectableParent.getArea());
     }
 }
