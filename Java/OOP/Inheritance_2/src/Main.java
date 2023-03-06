@@ -7,13 +7,19 @@ public class Main {
 
         Dog dog = new Dog();
         doAnimalStuff(dog, "fast");
+
+        Dog yorkie = new Dog("Yorkie", 15);
+        doAnimalStuff(yorkie, "fast");
+        Dog retriever = new Dog("Labrador Retriever", 65,
+                "Floppy", "Swimmer");
+        doAnimalStuff(retriever, "slow");
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
 
         animal.makeNoise();
         animal.move(speed);
-        System.out.println(animal); // we are able to call animal class because of toString method
+        System.out.println(animal);
         System.out.println("_ _ _ _");
     }
 }
