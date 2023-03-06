@@ -13,7 +13,7 @@ public class Main {
 
         animal.makeNoise();
         animal.move(speed);
-        System.out.println(animal);
+        System.out.println(animal); // we are able to call animal class because of toString method
         System.out.println("_ _ _ _");
     }
 }

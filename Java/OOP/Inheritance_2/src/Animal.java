@@ -14,7 +14,8 @@ public class Animal {
     }
 
     @Override
-    public String toString() {
+    public String toString()  //The toString() method returns the String representation of the object.
+    {
         return "Animal{" +
                 "type='" + type + '\'' +
                 ", size='" + size + '\'' +
