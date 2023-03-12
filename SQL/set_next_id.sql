@@ -9,4 +9,4 @@ SELECT setval('table_id_seq', (SELECT MAX(id) FROM table)+1);
 
 -- If any type error occurs
 
-SELECT setval('road_names_1_id_seq', (SELECT MAX(id)::bigint FROM road_names)+1);
+SELECT setval('road_names_1_id_seq', (SELECT MAX(id)::bigint FROM table)+1);
