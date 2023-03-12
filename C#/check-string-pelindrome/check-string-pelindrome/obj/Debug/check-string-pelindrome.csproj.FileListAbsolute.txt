@@ -1,0 +1,8 @@
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\bin\Debug\check-string-pelindrome.exe.config
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\bin\Debug\check-string-pelindrome.exe
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\bin\Debug\check-string-pelindrome.pdb
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\obj\Debug\check-string-pelindrome.csproj.AssemblyReference.cache
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\obj\Debug\check-string-pelindrome.csproj.SuggestedBindingRedirects.cache
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\obj\Debug\check-string-pelindrome.csproj.CoreCompileInputs.cache
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\obj\Debug\check-string-pelindrome.exe
+D:\My learning\C# exercise\check-string-pelindrome\check-string-pelindrome\obj\Debug\check-string-pelindrome.pdb
