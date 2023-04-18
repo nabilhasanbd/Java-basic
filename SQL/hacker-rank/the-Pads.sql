@@ -8,7 +8,8 @@ FROM ((SELECT CONCAT(name, '(', LEFT(Occupation, 1), ')') AS name FROM OCCUPATIO
 ORDER BY name;
 
 ---------------------------------------------------------------------------
-
+-- SELECT SUBSTRING("Nabill", 1,2) AS ExtractString;
+-- output = Na
 select name + '(' + substring(occupation, 1, 1) + ')'
 from occupations
 order by name;
