@@ -85,3 +85,35 @@ ADD PRIMARY KEY (bin);
 
 
 
+------------
+
+DO $$
+DECLARE
+    max_bin bigint;
+    next_val bigint;
+BEGIN
+    -- Get the maximum bin value
+    SELECT MAX(bin::bigint) INTO max_bin FROM gis_buildings;
+
+    -- Create a temporary sequence starting from max_bin + 1
+    EXECUTE format('CREATE TEMP SEQUENCE IF NOT EXISTS temp_seq START %s', max_bin + 1);
+
+    -- Loop through each row where btype is 'Subsidiary' and update bldgasc
+    FOR next_val IN
+        SELECT nextval('temp_seq')
+        FROM gis_buildings
+        WHERE btype = 'Subsidiary'
+    LOOP
+        UPDATE gis_buildings
+        SET bldgasc = next_val
+        WHERE ctid IN (
+            SELECT ctid
+            FROM gis_buildings
+            WHERE btype = 'Subsidiary' AND bldgasc IS NULL
+            LIMIT 1
+        );
+    END LOOP;
+
+    -- Drop the temporary sequence
+    EXECUTE 'DROP SEQUENCE temp_seq';
+END $$;
